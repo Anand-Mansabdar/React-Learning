@@ -12,8 +12,8 @@ const App = () => {
   };
 
   const handleScroll = (e) => {
-    console.log(e)
-  }
+    console.log(e);
+  };
   return (
     <div>
       <h2>Click the following button</h2>
@@ -25,9 +25,11 @@ const App = () => {
       </button>{" "}
       <br /> <br />
       <input type="text" placeholder="Enter something" onChange={handleInput} />
-      <div onWheel={(e) => {
-        handleScroll(e.deltaY)
-      }}>
+      <div
+        onWheel={(e) => {
+          handleScroll(e.deltaY);
+        }}
+      >
         <div className="page1"></div>
         <div className="page2"></div>
       </div>
