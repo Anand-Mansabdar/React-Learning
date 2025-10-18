@@ -1,0 +1,16 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items{
+  display: flex;
+  gap: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
